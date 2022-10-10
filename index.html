@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folloe Up Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Follow Up Survey</h1>
+    <form id="survey-form">
+        <fieldset>
+            <label for="date">When did you use our service?</label><br>
+            <input type="date" name="date" id="date">
+        </fieldset>
+        <fieldset>
+            <label for="productName">Name  of product or service</label>
+            <input type="text" name="productName" id="productName">
+        </fieldset>
+        <fieldset>
+            <label for="review">Overall, how satisfied are you with the product or service?</label><br>
+            <label for="Very-satisfied"><input type="radio" name="very-satisfied" id="very-satisfied">very-satisfied</label>
+            <label for="Satisfied"><input type="radio" name="Satisfied" id="">Satisfied</label>
+            <label for="Neutral"><input type="radio" name="Neutral" id="">Neutral</label>
+            <label for="Unsatisfied"><input type="radio" name="Unsatisfied" id="Unsatisfied">Unsatisfied</label>
+            <label for="Very-unsatisfied"><input type="radio" name="Very-unsatisfied" id="Very-unsatisfied">Very-unsatisfied</label>
+            <label for="N/A"><input type="radio" name="N/A" id="N/A">N/A</label>
+        </fieldset>
+        <fieldset>
+            <label for="expectations">Did our product or service meet your expectations?</label><br>
+            <label for="yes"><input type="radio" name="yes" id="yes">Yes</label>
+            <label for="no"><input type="radio" name="no" id="no">No</label>
+        </fieldset>
+        <fieldset>
+            <label for="explain">Please explain:</label><br>
+            <textarea name="explain" id="explain" placeholder="Type here..." cols="30" rows="8"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="recommend">Would you recommend this product or service to a friend?</label><br>
+            <label for="yes"><input type="radio" name="yes" id="yes">Yes</label>
+            <label for="no"><input type="radio" name="no" id="no">No</label>
+        </fieldset>
+        <fieldset>
+            <label for="explain">Please explain:</label><br>
+            <textarea name="explain" id="explain" placeholder="Type here..." cols="30" rows="8"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="aspect">What aspect of the product or service were you most satisfied by?</label><br>
+            <label for="quality"><input type="radio" name="quality" id="quality">Quality</label>
+            <label for="price"><input type="radio" name="price" id="price">Price</label>
+            <label for="customer-service"><input type="radio" name="customer-service" id="customer-service">Customer Service</label>
+            <label for="installation"><input type="radio" name="installation" id="installation">Installation or first use experience</label>
+        </fieldset>
+        <fieldset>
+            <label for="explain">Please explain:</label><br>
+            <textarea name="explain" id="explain" placeholder="Type here..." cols="30" rows="8"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
